@@ -1,0 +1,47 @@
+1. Importing the packages
+2. Exploring the dataset 
+	- Reading the image
+	- plotting the image
+3. Image Processing
+	- converting to blob object
+	- defining the class
+	- declaring the bounding box
+	- convert the array to a numpy array
+4. Loading the pre-trained model
+	- reading the network layers
+	- extract the output layers
+5. Image processing
+	- appending the image - annotation file and images
+	- converting bgr to rgb
+	- creating the mask
+	- resizing the image
+6. Data Augmentation
+	- randoming the image
+	- rotating the image
+	- transforming the image
+7. Installing the packages required for yolov5 in Colab
+8. Processing the Data based on yolov5 model
+9. Building the model in colab
+	Yolo V5s
+	Yolo V5 - csl 
+	Yolo V5x6
+    YoloV6
+    YoloV7
+	Yolo V8
+10. Training the model
+11. Building the model with YOLO
+Flask Framework
+----------------
+12. Flask Framework with Sqlite for signup and signin
+13. User gives input as Image or Video
+14. The given input preprocessed and with trained model is used for detection
+15. The segmented each object and put bounding box 
+16. Final outcome is displayed
+Dataset
+======
+https://roboflow.com/convert/labelbox-json-to-yolov5-pytorch-txt 
+Extension:
+=======
+In the base paper, the author mentioned to use different techniques for analysis the datasets for detecting  with different detection models, yolov5-csl got 0.72
+However, we can further enhance the performance by exploring other techniques such as Yolov5x6 and YoloV8, from which Yolo v5x6, got 0.80% mAP or above,
+With the above As an extension we can build the front end using flask framework for user testing with authentication.
